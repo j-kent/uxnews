@@ -1,0 +1,52 @@
+body {
+  border-top: 3px solid #333;
+  color: #444;
+}
+
+.site-title {
+  margin: 1rem 0 0 0;
+}
+
+.edition-header {
+  text-align: right;
+  border-bottom: 1px solid #999;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.article {
+  margin-bottom: 5rem;
+}
+
+.article-headline {
+  margin-bottom: 0.25rem;
+}
+
+.article-headline a {
+  text-decoration: none;
+}
+
+.article-headline a:hover {
+  text-decoration: underline;
+}
+
+.article-byline {
+  color: #999;
+}
+
+.article-byline span {
+  margin-right: 2rem;
+}
+
+.article-description {}
+
+  /* Larger than mobile */
+  @media (min-width: 550px) {
+    .site-header {
+      position: fixed;
+      width: 200px;
+    }
+    .articles {
+      margin-top: 5rem;
+    }
+  }
